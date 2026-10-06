@@ -1,0 +1,33 @@
+# ==========================================
+# 1. ARCHIVOS DEL SISTEMA Y EDITORES (GLOBAL)
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# ==========================================
+# 2. FRONTEND (gt-mda-front-end)
+# ==========================================
+gt-mda-front-end/node_modules/
+gt-mda-front-end/dist/
+gt-mda-front-end/build/
+gt-mda-front-end/.env
+gt-mda-front-end/.env.local
+gt-mda-front-end/.env.development.local
+gt-mda-front-end/.env.production.local
+gt-mda-front-end/npm-debug.log*
+gt-mda-front-end/yarn-debug.log*
+gt-mda-front-end/yarn-error.log*
+
+# ==========================================
+# 3. BACKEND (gt-mda-backend)
+# ==========================================
+gt-mda-backend/node_modules/
+gt-mda-backend/dist/
+gt-mda-backend/build/
+gt-mda-backend/.env
+gt-mda-backend/*.log
+gt-mda-backend/uploads/
+gt-mda-backend/temp/
